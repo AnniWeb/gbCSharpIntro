@@ -48,7 +48,7 @@ Console.WriteLine("Задача 8: Напишите программу, кото
     Console.Write($"{number} ->");
     if (number > 0){
         for (int i = 0; i <= number; i++) {
-            if (i % 2 == 1) {
+            if (i % 2 == 0) {
                 Console.Write($" {i}");   
             }
         }
